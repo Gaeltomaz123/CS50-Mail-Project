@@ -1,0 +1,21 @@
+textarea {
+    min-height: 400px;
+}
+
+#emails-view .unreaded, .readed {
+    padding: 5px;
+    border: 1px solid black;
+}
+
+#emails-view .unreaded:hover, .readed:hover{
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+#emails-view .unreaded {
+    background-color: white;
+}
+
+#emails-view .readed {
+    background-color: rgb(220, 220, 220);
+}
